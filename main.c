@@ -3,6 +3,7 @@
 #define HELLO_WORLD "Hello world!"
 
 int resta(int, int);
+int suma(int, int);
 
 int main(){
 	printf("%d\n", resta(-2,1));
@@ -11,4 +12,8 @@ int main(){
 
 int resta(int a, int b){
 	return a-b;
+}
+
+int suma(int a, int b){
+	return a + b;
 }
