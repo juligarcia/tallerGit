@@ -2,7 +2,13 @@
 
 #define HELLO_WORLD "Hello world!"
 
+int resta(int, int);
+
 int main(){
-	printf("%s\n", HELLO_WORLD);
+	printf("%d\n", resta(-2,1));
 	return 0;
+}
+
+int resta(int a, int b){
+	return a-b;
 }
